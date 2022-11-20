@@ -36,6 +36,7 @@
 }
 
 a{
+   color: #FF9191;
     text-decoration: none;
 }
 
@@ -44,9 +45,11 @@ a[data-tool-tip] {
 }
 
 a[data-tool-tip]::after{
+    margin-left: 10px;
     content: attr(data-tool-tip);
     display: block;
     position: absolute;
+    color: white;
     background-color: #FFB4B4;
     width: 1.5em;
     height: 1.5em;
@@ -58,15 +61,18 @@ a[data-tool-tip]::after{
     left: 4.5em;
     transform: scale(0);
     transition: transform ease-out 150ms;
+   
 }
 
 a[data-tool-tip]:hover::after {
     transform: scale(1);
-
+   
 }
 
+
+
 .nav-bar__logo span {
-    color: #FC6D6D;
+    color: #FF6D6D;
 }
 
 .nav-bar__link {
