@@ -308,6 +308,7 @@ button:hover {
 .top-seller-grid{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    margin-bottom: 300px;
 }
 .top-seller-grid__item{
   text-align: center;
@@ -319,4 +320,24 @@ button:hover {
     border-radius: 100%;
     width: 151px;
     height: 142px;
+    object-fit: cover;
+    
+}
+
+.top-seller__name{
+
+    font-family: 'Poppins'; 
+    font-weight: 700;
+    font-size: 26px;  
+    
+    color: #FE2E66;
+}
+
+.top-seller__eth{
+    font-family: 'Poppins';
+  
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FD636B;
 }
