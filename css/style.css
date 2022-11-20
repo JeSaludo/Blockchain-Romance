@@ -88,6 +88,11 @@ a[data-tool-tip]:hover::after {
 
 }
 
+.nav-bar__item a:hover{
+    color: var(--clr-peach);
+    
+}
+
 .nav-bar__item {
     display: inline;
 
@@ -288,7 +293,7 @@ button:hover {
     margin-bottom: 40px;
 }
 .featured-card{
-    
+    cursor: pointer;
     width: 380px;
     height: 538px;   
 
@@ -361,6 +366,7 @@ button:hover {
 }
 .top-seller-grid__item{
   text-align: center;
+  cursor: pointer;
 
 }
 
