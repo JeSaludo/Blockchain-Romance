@@ -35,10 +35,17 @@
 
 }
 
+
+.nav-bar__logo span {
+    color: #FF6D6D;
+}
+
 a{
    color: #FF9191;
     text-decoration: none;
 }
+
+
 
 a[data-tool-tip] {
     position: relative;
@@ -70,10 +77,6 @@ a[data-tool-tip]:hover::after {
 }
 
 
-
-.nav-bar__logo span {
-    color: #FF6D6D;
-}
 
 .nav-bar__link {
     list-style: none;
@@ -370,8 +373,12 @@ button:hover {
     font-family: var(--ff-poppins);
     font-weight: 700;
     line-height: 96px;
-    color: #DD6169;
+    color: var(--clr-black);
     margin: 0 auto 60px;
+}
+
+.top-seller__header span{
+    color: #DD6169;
 }
 
 .top-seller-grid{
@@ -412,9 +419,14 @@ button:hover {
     color: #FF7A8B;
 }
 
-.line-img{
+.design{
+    margin: 100px 0;
+}
+.design__line-img{
     width: 1440px;
-    
+}
+.design--inverted{
+    transform: scaleX(-1);
 }
 
 .community-box{
@@ -473,4 +485,83 @@ color: #FE2E66;
     width: inherit;
     height: 70px;
     
+}
+
+.community__btn:active{
+    color: rgba(255, 255, 255, 1);
+    box-shadow: none;
+}
+
+.footer-bg{
+    margin-top: 50px;
+    width: 1440px;
+    height: 444px;
+    background: var(--clr-black);
+    margin-bottom: 0;
+}
+
+.footer__logo{
+    font-size: 48px;
+    
+    font-weight: 700;
+    
+    color: var(--clr-light-pink);
+    font-family: var(--ff-poppins);
+    margin-bottom: 40px;
+
+}
+
+.footer__logo span{
+    color: #FE2E66;
+}
+
+.footer__description{
+    color: var(--clr-neutral-white);
+    width: 522px;
+    height: 132px;
+    
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px inherit 0;
+ 
+}
+
+.footer__item{
+    margin: 60px;
+}
+.footer__item--a{
+    display: block;
+    width: 180px;
+    height: 33px;
+    font-family: var(--ff-poppins);
+    
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    margin-top: 10px;
+    color: var(--clr-neutral-white);
+}
+
+
+.footer__item--a:first-child{
+    margin-bottom: 45px;
+}
+
+.footer-link{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.social-container img{
+    margin: 10px;
 }
