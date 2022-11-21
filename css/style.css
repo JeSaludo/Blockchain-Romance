@@ -190,7 +190,7 @@ button:hover {
     margin-left: 10px;
 }
 
-.hero__btn--pink:hover {
+.hero__btn--pink:active {
     
     color: rgba(255, 255, 255, 1);
     box-shadow: none;
@@ -205,7 +205,7 @@ button:hover {
     box-shadow: 6px 7px 0px rgba(0, 0, 0, 0.75);
     border-radius: 10px;
 }
-.hero__btn--light:hover {
+.hero__btn--light:active {
     color: var(--clr-peach);
     box-shadow: none;
 }
@@ -240,6 +240,11 @@ button:hover {
     position: relative;
 }
 
+.cloud-img{
+    width: 1440px;
+    height: 309px;
+    margin-bottom: -10px;
+}
 .featured-bg{
     background-color: var(--clr-very-light-brown);
     width: inherit;
@@ -249,6 +254,7 @@ button:hover {
 }
 #featured{
     background-color: white;
+  
 }
 
 .featured__header{
@@ -274,7 +280,7 @@ button:hover {
 }
 .featured-container{
     background:#FFDEBF;
-    height: 447px;
+    height: 1350px;
     
 }
 
@@ -283,8 +289,15 @@ button:hover {
    grid-template-columns: 1fr 1fr 1fr;
   
     width: 1340px;
-    margin: -300px auto 100px;
+    margin: -1180px auto 0;
     gap: 10px;
+}
+.wave-img{
+    
+    margin-bottom: -50px;
+    z-index: -1;
+    width: 1440px;
+
 }
 
 .grid__item{
@@ -350,6 +363,8 @@ button:hover {
     color: var(--clr-ligt-gray);
 }
 
+
+
 .top-seller__header{
     font-size: 64px;
     font-family: var(--ff-poppins);
@@ -362,7 +377,7 @@ button:hover {
 .top-seller-grid{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    margin-bottom: 300px;
+    margin-bottom: 70px;
 }
 .top-seller-grid__item{
   text-align: center;
@@ -394,5 +409,13 @@ button:hover {
     font-weight: 700;
     font-size: 18px;
     line-height: 27px;
-    color: #FD636B;
+    color: #FF7A8B;
 }
+
+.line-img{
+    width: 1440px;
+    
+}
+
+
+
