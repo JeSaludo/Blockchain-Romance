@@ -565,3 +565,7 @@ color: #FE2E66;
 .social-container img{
     margin: 10px;
 }
+
+.social-container img:hover{
+    cursor: pointer;
+}
