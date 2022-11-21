@@ -417,5 +417,60 @@ button:hover {
     
 }
 
+.community-box{
+    width: 1369px;
+    height: 380px;
+    margin: 20px auto;
+
+    background: #FFD9D6;
+    border-radius: 93px;
+    
+}
+
+.community__header{
+    width: 711px;
+    height: 96px;
+    margin: auto;
+   padding-top: 50px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+  
 
 
+color: #FE2E66;
+}
+
+.community__header span{
+    color:black;
+}
+
+.community__context{
+    padding-top: 50px;
+    margin: auto;
+    width: 651px;
+    height: 82px;
+    left: 399px;
+    top: 3644px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+}
+.community-btn__wrapper{
+    margin: 0 auto;
+    width: 301px;
+}
+.community__btn{
+   
+    margin: 80px auto;
+    width: inherit;
+    height: 70px;
+    
+}
