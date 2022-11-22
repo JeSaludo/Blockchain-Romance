@@ -57,7 +57,8 @@ a[data-tool-tip]::after{
     display: block;
     position: absolute;
     color: white;
-    background-color: #FFB4B4;
+    background-color: var(--clr-light-pink);
+    
     width: 1.5em;
     height: 1.5em;
     display: flex;
@@ -109,7 +110,7 @@ a[data-tool-tip]:hover::after {
 button {
     width: 190px;
     height: 40px;
-    background: #FFB4B4;
+    background: var(--clr-light-pink);
     border: 1px solid #000000;
     box-shadow: 6px 7px 0px rgba(0, 0, 0, 0.76);
     border-radius: 20px;
@@ -124,7 +125,7 @@ button {
 
 button:hover {
     cursor: pointer;
-    background-color: #FE2E66;
+    background-color: var(--clr-something-red);
     transition: ease-in 200ms;
     color: #FEF0E9;
 
@@ -385,7 +386,8 @@ button:hover {
     font-weight: 700;
     line-height: 96px;
     color: var(--clr-black);
-    margin: 0 auto 60px;
+    margin: 0 auto 60px 0;
+    padding-left: 50px;
 }
 
 .top-seller__header span{
@@ -418,7 +420,7 @@ button:hover {
     font-weight: 700;
     font-size: 26px;  
     
-    color: #FE2E66;
+    color: var(--clr-something-red);
 }
 
 .top-seller__eth{
@@ -512,10 +514,8 @@ color: #FE2E66;
 }
 
 .footer__logo{
-    font-size: 48px;
-    
+    font-size: 48px;    
     font-weight: 700;
-    
     color: var(--clr-light-pink);
     font-family: var(--ff-poppins);
     margin-bottom: 40px;
