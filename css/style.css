@@ -561,7 +561,10 @@ color: #FE2E66;
     margin-top: 10px;
     color: var(--clr-neutral-white);
 }
-
+.footer__item--a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
 
 .footer__item--a:first-child{
     margin-bottom: 45px;
